@@ -1,0 +1,93 @@
+---
+title: "308_Paper.pdf"
+source: IMA知识库/IC失效分析/
+media_id: pdf_f27e1b7ab86c953bd98a56bed90e29a1_88f8bc1b1d9de2433db4778f9bc8398c7295230462135641
+file_size: 548085
+---
+
+## EOFM measurements of lateral and vertical Bipolar  Transistors in Silicon and SiGe:C Technologies   
+
+A. Beyreuther a,b\* , N. Herfurth a,b , E. Amini c , T. Nakamura d , G. G. Fischer e , S. Keil a ,  C. Boit b     a Sensuators and Actuators, Berlin University of Technology (TUB), Sekr. E3, Einsteinufer 19, 10587 Berlin, Germany    b Semiconductor Devices, Berlin University of Technology (TUB), Sekr. E4, Einsteinufer 19, 10587 Berlin, Germany  c Security in Telecommunications, (TUB), Sekr. TEL16, Ernst-Reuter-Platz 7, 10587 Berlin, Germany  d Hamamatsu Photonics KK, 325-6, Sunayama-cho, Naka-ku, Hamamatsu, Shizuoka Pref., 430-8587 Japan  e IHP – Leibniz-Institut für innovative Mikroelektronik, Im Technologiepark 25, 15234 Frankfurt (Oder), Germany  a Phone: +49 30341 29116, \*Email:  a.beyreuther@tu-berlin.de
+
+Abstract-   This publication presents Electro-Optical Frequency  Mapping (EOFM) on lateral and vertical bipolar junction  transistors. The acquired EOFM measurements are used to  characterize the different operation modes of a parasitic bipolar  junction transistor, as well as a modern heterojunction bipolar  transistors (HBT) in SiGe:C BiCMOS technology. Furthermore,  EOFM results of a golden and a faulty SiGe:C HBT are compared,  showing clearly distinguishable results.
+
+Keywords  –  Electro Optical Frequency Mapping, EOFM in bipolar  transistors, Laser Probing, Laser Voltage Imaging, LVI.
+
+## I. I NTRODUCTION 
+
+Electro-optical frequency probing (EOP) and Electro-optical  frequency mapping (EOFM) are both contactless and  destruction-free methods to acquire signals from a dynamically  operated device under test and thus provides insight into the  dynamic state of the device [1] - [3]. Although the application  of EOP techniques has been studied on bipolar devices [4], no  further investigation of EOFM on bipolar junction transistors  (BJT) has been published so far. For EOFM measurements the  laser is scanned across an area of interest, whilst the intensity of  the reflected signal is recorded pixel by pixel with a spectrum  analyzer. Contrary to EOP, the spectrum analyzer only records  signals of a certain frequency, generating an image of the  activated areas [2].
+
+In this work the authors demonstrate that EOFM  measurements can be used to characterize the different  operation modes of modern heterojunction bipolar transistors  (HBT) and ultimately permitting the identification of faulty  devices. Modern HBT devices are constructed vertically so as  to maximize device performance (see fig. 1). To better illustrate  the EOFM signal generation in an HBT, a first step will be to  investigate the parasitic BJT in a regular planar Si-MOSFET. In  a second part, the EOFM results on modern high performance
+
+SiGe:C HBT devices in different operation modes are  presented. In a third and final part, EOFM measurements on a  faulty SiGe:C HBT and a reference SiGe:C HBT device are  compared.
+
+## II.   EXPERIMENTAL   SETUP  
+
+All of the presented EOFM measurements were performed on  the Hamamatsu Phemos 1000. A HIL (High power Incoherent  Light source) from Hamamatsu with a center wavelength of  1330 ݊݉  and a bandwidth of  20 ݊݉   was used as light source  and for all presented measurements a 50x magnification lens  with 0.71 NA was utilized.
+
+![H3-HV  Base   Emitter   Collector  nS/D  CollectorWell  Deep  Deep Collector  Collector  6  ](https://venus-trag-1258344701.cos-internal.ap-guangzhou.tencentcos.cn/userUpload/is-62e36cd9/2025-03-29/76e492dd-d77f-4799-8d89-290dc05c58ab/76e492dd-d77f-4799-8d89-290dc05c58ab.jpg?q-sign-algorithm=sha1&q-ak=AKID61g5D5fy1TjiRv84nEOHtFJ8gyzjCPL0&q-sign-time=1743215701%3B1743219301&q-key-time=1743215701%3B1743219301&q-header-list=host&q-url-param-list=&q-signature=913fc012ff4a30402c08c45f087d050345de3af8)
+Figure 1 Schematic cross-section of SiGe:C HBT in SG25H3 BiCMOS  process. Picture taken from [5].
+
+For the EOFM investigations a square wave pulse with   $50\%$    duty cycle and 1 MHz frequency was applied, using a frequency  generator and a HP 4145 semiconductor parameter analyzer was  used to apply constant voltages/currents. All the devices  presented in this work have been bonded and thinned down to  around   $100\upmu\mathrm{m}$  , in order to facilitate access to the chip backside.  A more in-depth  description of the experimental setup used for  the presented EOFM measurements can be found in [6].
+
+## III. D EVICES UNDER TEST 
+
+Two different types of structures were investigated for this  work: A lateral and a vertical bipolar transistor. As a lateral BJT  the authors used the parasitic bipolar junction transistor of a  generic   single   p-type   MOSFET   (see   fig.   2),   size   $30\upmu m\,x\,30\upmu m$     in   120 ݊݉   technology   from   Infineon  Technologies AG.
+
+The vertical bipolar transistor considered in this work was a  SiGe(germanium):C(carbon) – HBT in   $25\upmu m$     BiCMOS  technology, provided by the IHP Frankfurt/Oder (for schematic  see fig. 1). The HBT in question is a high voltage HBT of a  technology family called SG25H [5], that covers a wide range  of   needs   for   high-performance   wireless   and   optical  communication applications.
+
+## IV. L ATERAL  BJT:   P ARASITIC  B IPOLAR IN  S I  MOSFET  
+
+In a first step, the authors considered electro-optical  frequency mapping of a lateral bipolar device, more precisely a  parasitic bipolar junction transistor in a planar silicon  MOSFET. The advantage of such a BJT being that emitter, base  and collector are not overlapping (as it is the norm for modern  HBT devices, see fig. 1). This allows for a more detailed  investigation of the EOFM signal originating in the respective  parts of the transistor.
+
+![VBack-Bias > OV   VG>OV   Vd>OV  GATE  BULK   SOURCE   DRAIN  ](https://venus-trag-1258344701.cos-internal.ap-guangzhou.tencentcos.cn/userUpload/is-62e36cd9/2025-03-29/a422f7bf-4333-496c-90a5-521f18c98342/a422f7bf-4333-496c-90a5-521f18c98342.jpg?q-sign-algorithm=sha1&q-ak=AKID61g5D5fy1TjiRv84nEOHtFJ8gyzjCPL0&q-sign-time=1743215701%3B1743219301&q-key-time=1743215701%3B1743219301&q-header-list=host&q-url-param-list=&q-signature=0b9053e2e08f07d9b72adfae8c88ccf1ae3f1246)
+Figure 2 Schematic cross-section view of Si MOSFET with applied back-bias  voltage and schematic parasitic BJT.
+
+In order to trigger a bipolar parasitic in a MOSFET, a current
+
+flow in the transistor body inducing a voltage drop between  body and source terminal suffices [7]. The voltage drop leads to  a forward biasing of the source/body pn-junction. When the  drain is in operating voltage, i.e. the drain/body junction is  reverse-biased, in conjuncture with the forward biased  source/body pn-junction, the parasitic BJT is in active mode  (see fig.2). If both, the source/body and the drain/body pnjunctions are in forward bias, the parasitic BJT is in saturation  mode.  An IV-curve of a (parasitic) bipolar transistor in active  and saturation mode is shown in fig. 3.
+
+For the measurements presented in figs. 3-5, a square wave  pulse was applied to the source (acting as emitter for the  parasitic BJT) and a constant voltage was applied to the drain  (acting as collector), either forward- or reverse-biasing the  drain/bulk diode. The bulk (base) was set to ground.
+
+![Wlode:  Saturated  adl.  Auclwe  ](https://venus-trag-1258344701.cos-internal.ap-guangzhou.tencentcos.cn/userUpload/is-62e36cd9/2025-03-29/81d6ae2d-9b3f-4981-a471-16156019cb52/81d6ae2d-9b3f-4981-a471-16156019cb52.jpg?q-sign-algorithm=sha1&q-ak=AKID61g5D5fy1TjiRv84nEOHtFJ8gyzjCPL0&q-sign-time=1743215701%3B1743219301&q-key-time=1743215701%3B1743219301&q-header-list=host&q-url-param-list=&q-signature=bf30dc7480efe71e0c68a7b8930296f505d932b2)
+Figure 3 IV-Curve of a parasitic bipolar junction transistor in active and in  saturation mode. Figure taken from [8].
+
+Fig. 4 (b)-(c) show the resulting EOFM signals. A strong  signal in the source/emitter area was observed where the voltage  pulse is applied: due to the forward-biasing of the source/body  pn-junction, the charge carrier density increases. This increase  leads to the observed modulation of the EOFM signal [1], [3].       The voltage applied to the drain/collector terminal is constant  and therefore does not contribute directly to the EOFM signal.  In fig.4 (c) the parasitic BJT is in saturation mode and the  forward-biased drain/body pn-junction causes an increase of the  EOFM signal in the drain region. A cross-section of the  intensity profile of the EOFM signal can be found in fig. 5. It  shows clearly that in saturation mode the intensity of the EOFM  signal in the drain/collector region is much higher than in active  mode. Because the drain voltage is constant and therefore does  not contribute to the EOFM signal, this rise in intensity in the  drain/collector region we observe in saturation mode, must be a  feedthrough from the pulsed emitter.
+
+![GATE  ](https://venus-llm-1258344701.cos-internal.ap-guangzhou.tencentcos.cn/userUpload/is-62e36cd9/2025-03-29/17c6c3ff-2dc8-4a49-8e8d-2315da2b546d/17c6c3ff-2dc8-4a49-8e8d-2315da2b546d.jpg?q-sign-algorithm=sha1&q-ak=AKID61g5D5fy1TjiRv84nEOHtFJ8gyzjCPL0&q-sign-time=1743215701%3B1743219301&q-key-time=1743215701%3B1743219301&q-header-list=host&q-url-param-list=&q-signature=c8ca956069e00dd20f59e407697846eba4ce4e8d)
+Figure 4 EOFM measurement results of parasitic BJT in  $30\upmu\mathrm{m}$   SiMOSFET. (a) Pattern image, (b) parasitic BJT in active mode, (c) parasitic  BJT in saturation mode.
+
+In active mode the authors observed a slight increase in signal  intensity throughout the base region (area between source and  drain). Because the transistor base/gate area is very large (low  current gain), a diffusion triangle of the carrier concentration  could not be observed, but rather a behavior of the carrier  concentration more akin to an exponential decline. This lead to  the assumption, that the rise in carrier concentration indicated  by the increasing EOFM signal is in fact not injection of carriers  into the base area, but the result of the gated diode transporting  charge carriers underneath the gate.  Comparing weak active  mode and full active mode (fig. 6), this assumption is  substantiated, because only a sufficiently high voltage pulse on  the source/emitter terminal generates a rise in EOFM signal, i.e.  activating the gated diode.
+
+## V. V ERTICAL  BJT:   S I G E :C   HBT  
+
+For the EOFM measurements presented in figs. 7-8, a square  wave pulse was applied to the collector and a constant current  was impressed onto the base, the emitter was set to ground.   Fig.7 shows the EOFM results of the HBT in saturation (a), in  weak active mode (b) and in full active mode (c). In saturation  mode, carriers are injected into the base, thus increasing the  concentration of minority carriers in the base. This change in  carrier concentration leads to a modulation of the EOFM signal  in the base area, as seen in fig. 7 (a). When entering active mode,  the reverse biased collector/base junction causes an increase in  the thickness of the space-charge region and, as a consequence,  modulating the EOFM signal  [2], [3] . This can be observed in  fig.7 (b)-(c), where the area size and the intensity of the EOFM  signal adjacent to the base increases with the space charge  region. Both operation modes of the HBT are clearly  distinguishable in shape.
+
+## VI.    C OMPARISON OF FAULTY AND INTACT  S I G E :C   HBT  
+
+Fig. 8 shows the EOFM signal of a faulty SiGe:C HBT  device. The fault consists in an emitter-base short. Although  operated analogous to the device shown in fig. 7, the EOFM  results notably differ: in saturation mode there is no definite  area where the signal is modulated, as observed in fig. 7 (a), but  rather several diffuse areas (fig.8 (a)) where the EOFM signal  area and intensity increases drastically when entering full active
+
+mode, see fig.8 (c). This can be attributed to heat development  due to overstressing of the base. The change in temperature  leads to generation of EOFM signal [2], [3], which far surpasses  the device dimensions.  This shows, that although the  unimpaired HBT (fig. 7) and the faulty HBT (fig.8) match in  construction and in size, their respective EOFM signals differ  greatly.
+
+![SOURCE  46000  parasiticBJTinsat.mode  44000-  parasiticBJTinact.mode  42000  DRAIN  40000  38000  36000  34000  32000  200   300   40   500  PXI  ](https://venus-trag-1258344701.cos-internal.ap-guangzhou.tencentcos.cn/userUpload/is-62e36cd9/2025-03-29/2a791b35-3518-4a9e-81fa-c8b60b5d0719/2a791b35-3518-4a9e-81fa-c8b60b5d0719.jpg?q-sign-algorithm=sha1&q-ak=AKID61g5D5fy1TjiRv84nEOHtFJ8gyzjCPL0&q-sign-time=1743215701%3B1743219301&q-key-time=1743215701%3B1743219301&q-header-list=host&q-url-param-list=&q-signature=13f13f21e24e371ef0d4ad0b29da35d1bae08fbf)
+Figure 5 Intensity profile of EOFM signal of parasitic BJT in   $30\upmu\mathrm{m}$   for  active mode (S/E pulsed with 1.2V, D/C voltage const. at -0.9V) and  saturation mode (S/E pulsed with 1.2V, D/C voltage const. at  $+0.9\mathrm{V}$  ).
+
+![SOURCE  44000  Source/Emitterpulsedwith1.2V  Source/Emitterpulsedwith0.8V  42000  40000   DRAIN  38000  36000  34000  32000  200   300   500  ](https://venus-llm-1258344701.cos-internal.ap-guangzhou.tencentcos.cn/userUpload/is-62e36cd9/2025-03-29/f10300df-b634-47da-b198-9bbae9cf0c12/f10300df-b634-47da-b198-9bbae9cf0c12.jpg?q-sign-algorithm=sha1&q-ak=AKID61g5D5fy1TjiRv84nEOHtFJ8gyzjCPL0&q-sign-time=1743215701%3B1743219301&q-key-time=1743215701%3B1743219301&q-header-list=host&q-url-param-list=&q-signature=b7c4ed1a3a1d8ac01048c19e5faffd851ec61f36)
+Figure 6 Intensity profile of EOFM signal of parasitic BJT in  $30\upmu\mathrm{m}$    MOSFET for weak active mode (S/E pulsed with 0.8V, D/C voltage const. at - 0.9V) and full active mode (S/E pulsed with 1.2V, D/C voltage const. at - 0.9V).
+
+![ca  Loum   1oun  ](https://venus-trag-1258344701.cos-internal.ap-guangzhou.tencentcos.cn/userUpload/is-62e36cd9/2025-03-29/60a4697a-8193-46ed-9e53-2b2fbd1fe844/60a4697a-8193-46ed-9e53-2b2fbd1fe844.jpg?q-sign-algorithm=sha1&q-ak=AKID61g5D5fy1TjiRv84nEOHtFJ8gyzjCPL0&q-sign-time=1743215701%3B1743219301&q-key-time=1743215701%3B1743219301&q-header-list=host&q-url-param-list=&q-signature=bf29f2308b641b3633ac6242bc31b8c4fee0a7e1)
+Figure 7 EOFM signal of unimpaired SiGe:C pnp HBT in    (a) saturation mode (Collector pulsed with -0.1V, Basis const. current   $-20\upmu\mathrm{A}$  ,    Emitter on ground), (b) weak active mode (Collector pulsed with -0.5V, Basis  const. current   $-20\upmu\mathrm{A}$  , Emitter on ground), (c) full active mode (Collector    pulsed with -1V, Basis const. current  $-20\upmu\mathrm{A}$  , Emitter on ground). The dotted  line marks the approximate transistor size.  Figure 8 EOFM signal of faulty SiGe:C npn HBT in (a) saturation mode    (Collector pulsed with 0.3V, Basis const. current  $20\upmu\mathrm{A}$  , Emitter on ground),    (b) weak active mode (Collector pulsed with 0.5V, Basis const. current   $20\upmu\mathrm{A}$  ,  Emitter on ground), (c) full active mode (Collector pulsed with 1V, Basis  const. current  $20\upmu\mathrm{A}$  , Emitter on ground). The dotted line marks the  approximate transistor size.
+
+![aD   C  1opm  ](https://venus-llm-1258344701.cos-internal.ap-guangzhou.tencentcos.cn/userUpload/is-62e36cd9/2025-03-29/65ac49dd-d92a-42a8-b879-28c049d3d084/65ac49dd-d92a-42a8-b879-28c049d3d084.jpg?q-sign-algorithm=sha1&q-ak=AKID61g5D5fy1TjiRv84nEOHtFJ8gyzjCPL0&q-sign-time=1743215701%3B1743219301&q-key-time=1743215701%3B1743219301&q-header-list=host&q-url-param-list=&q-signature=39e312442fefd536276de44dcaa9374f35b859f5)
+## VI. C ONCLUSION 
+
+It has been shown, that EOFM measurements can be used to  characterize the different operation modes in lateral bipolar  transistors and vertically build bipolar transistor. To that end,  the authors presented EOFM measurements on a parasitic BJT  in a p-type MOSFET and a high-performance SiGe:C HBT in  BiCMOS technology. Furthermore, it has been successfully  demonstrated, that EOFM measurements can serve as a useful  tool to identify faulty device operation in modern HBT devices.
+
+## A CKNOWLEDGMENT 
+
+## R EFERENCES 
+
+The authors would like to thank Andreas Eckert from TU  Berlin for sample preparation and they are grateful to IHP  Frankfurt/Oder, Germany for providing test structures and  additional help.
+
+[1]    P. Perdu, G. Bascoul, S. Chef, G. Celi and K. Sanchez, "Optical probing  (EOFM / TRI): A large set of complementary applications for ultimate  VLSI,"  Proceedings of the 20th IEEE International Symposium on the  Physical and Failure Analysis of Integrated Circuits (IPFA) , Suzhou,  2013, pp. 119-126.      [2]    U. Kindereit, "Fundamentals and future applications of Laser Voltage  Probing,"  2014 IEEE International Reliability Physics Symposium ,  Waikoloa, HI, 2014, pp. 3F.1.1-3F.1.11.       [3]    U. Kindereit, “Investigations of laser-beam modulations induced by the  operation of electronic devices”, PhD thesis, Berlin 2009.      [4]    M. M. Rebaï, F. Darracq, J.-P. Guillet, E. Bernou, K.  Sanchez, Kevin,  P. Perdu, D. Lewis,  (2014). “A comprehensive study of the application  of the EOP techniques on bipolar devices”,  Microelectronics Reliability.  54 , 10.1016/j.microrel.2014.07.116. (2014)       [5]    B. Heinemann, R. Barth, D. Knoll, H. Rucker, B. Tillack and W.  Winkler,   "High-Performance   BiCMOS   Technologies   without  Epitaxially-Buried   Subcollectors   and   Deep   Trenches,"   2006  International SiGe Technology and Device Meeting , Princeton, NJ,  2006, pp. 1-2.     [6]    I. Vogt. “Optical Interactions for Internal Signal Tracking in ICs – A  Deeper Understanding through Numerical Simulations, Spectral  Investigations and Specific Digital & Analog Test Structures”, PhD  thesis, Berlin 2018.     [7]    A.Beyreuther, N. Herfurth, E. Amini, T. Nakamura, I. De Wolf, C. Boit,  Christian, “Photon emission as a characterization tool for bipolar  parasitics in FinFET technology”.  Microelectronics Reliability.  88-90.  10.1016/j.microrel.2018.07.091. (2018)       [8]    C. Boit, “Fundamentals of Photon Emission (PEM) in Silicon -      Electroluminescence for Analysis of Electronic Circuit and Device  Functionality”, Microelectronics Failure Analysis (  $[6^{\mathrm{th}}$  edition), Desk  Reference, pp. 279-291, 2011.
+
